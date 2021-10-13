@@ -87,12 +87,11 @@ input.input {
     text-transform: uppercase;
     transition: all .4s;
     cursor: pointer;
-}
-button {
     outline: none!important;
     border: none;
-    background: 0 0;
+
 }
+
 .text_center{
     padding-top: 45px;
     padding-bottom: 4px;
