@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SignUp</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <div class="navbar">
+            <div class="left_content">
+                <a href="../index.html" id="logo">Wallet</a>
+                <a href="../index.html">Home</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="right_content">
+              <a href="../login_page/index.html">Login</a>
+                <a href="/signup_page/index.html"><button>Become a member <img src="img/Vector (1).svg" alt=""></button></a>
+            </div>
+        </div>
+    <div class="limiter">
+      <div class="container_login">
+        <div class="wrap_login">
+          <form class="login_form validate_form">
+            <span class="login_form_title"> Account Signup </span>
+            <div
+              class="wrap_input validate-input"
+              data-validate="Valid email is required: ex@abc.xyz"
+            >
+              <input
+                data = "email"
+                class="input"
+                type="text"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <span class="focus_input_1"></span>
+              <span class="focus_input_2"></span>
+            </div>
+            <div
+              class="wrap_input rs1 validate-input"
+              data-validate="Password is required"
+            >
+              <input
+                data ="password"
+                class="input"
+                type="password"
+                name="pass"
+                placeholder="Password"
+                required
+              />
+                <input
+                data ="password"
+                class="input"
+                type="password"
+                name="pass"
+                placeholder="Confirm the Password"
+                required
+              />
+              <span class="focus_input_1"></span>
+              <span class="focus_input_2"></span>
+            </div>
+            <div class="container_login_form_btn">
+              <input type="submit" value="Sign up" class="login_form_btn"/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -6,8 +6,100 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    background: #e9faff;
 }
+
+.navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+
+#logo {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.navbar a {
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size ease-out 0.3s;
+
+}
+
+.navbar a:hover,
+.navbara:focus {
+    font-size: 16px;
+    font-weight: bold;
+    background-size: 100% 2px;
+}
+
+.right_content {
+    padding-top: 5px;
+}
+
+.right_content a {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+
+
+.right_content button {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #23A6F0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 12px 15px 12px 15px;
+    transition: all ease-out 0.5s;
+}
+
+.right_content button:hover,
+.right_content button:focus {
+    cursor: pointer;
+    background-color: #0170b1;
+}
+
+.right_content img {
+    padding-left: 15px;
+}
+
 .limiter {
     width: 100%;
     margin: 0 auto;
@@ -86,13 +178,11 @@ input.input {
     line-height: 1.2;
     text-transform: uppercase;
     transition: all .4s;
-    cursor: pointer;
-}
-button {
     outline: none!important;
     border: none;
-    background: 0 0;
+    cursor: pointer;
 }
+
 .text_center{
     padding-top: 45px;
     padding-bottom: 4px;

@@ -73,6 +73,9 @@ body {
     letter-spacing: 0.2px;
     color: #23A6F0;
 }
+.right_content form{
+    display: inline;
+}
 
 .right_content button {
     font-family: Montserrat;
