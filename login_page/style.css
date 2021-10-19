@@ -13,8 +13,7 @@ body {
     position: sticky;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-bottom: 60px;
+    justify-content: center;
     padding-top: 35px;
 }
 
